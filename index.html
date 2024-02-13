@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://camerry.in/images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Camerry - Best Ice cream in Kerala</title>
+</head>
+
+<body>
+    <!--first block-->
+    <div class="firstblock">
+        <div class="header">
+            <div class="hdr1">
+                <img class="icon" src="https://camerry.in/images/logo.svg">
+            </div>
+            <div class="hdr2">
+                <a id="a1" href="https://www.camerry.in/#">PRODUCTS</a>
+                <a id="a1" href="https://www.camerry.in/about.html">ABOUT US</a>
+                <a id="a1" href="https://www.camerry.in/making.html">MAKING</a>
+                <a id="a1" href="https://www.camerry.in/career.html">CAREER</a>
+                <a id="a1" href="https://www.camerry.in/contact.html">CONTACT</a>
+
+            </div>
+            <div class="hdr3">
+                <img class="smicons" src="icons/facebook.png" alt="">
+                <img class="smicons" src="icons/twitter.png" alt="">
+                <img class="smicons" src="icons/in.png" alt="">
+                <img class="smicons" src="icons/insta.png" alt="">
+                <img class="smicons" src="icons/youtube.png" alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- midblock -->
+    <div class="midblock">
+        <div class="midleft">
+            <img id="midimg" src="https://www.camerry.in/images/about.png">
+
+        </div>
+        <div class="midright">
+            <p id="about">About us</p>
+            <h3 id="h3">The perfect blend of freshness, quality, and taste.</h3>
+            <p id="midpara">Indulge in heavenly scoops of real fruits, rich creamy milk and lip-smacking natural
+                flavours. Lose yourself in pleasure. Our ice creams are like comfortable hugs for your taste buds.</p>
+            <button id="explore">EXPLORE</button>
+
+
+        </div>
+
+    </div>
+    <!-- footer -->
+    <div id="footer">
+        <div id="foot">
+            <div id="infoot1">
+                <div id="row1">
+                    <h5 class="margin-5px-bottom" style="color: #7c682a;">Get in touch with us.</h5>
+                    <span class="text-medium" style="color:#d1bd74;">If you have any queries or feedback, we would love
+                        to hear from you!</span>
+                </div>
+                <div id="row2">
+                    <button id="conbutton">CONTACT US</button>
+                </div>
+
+            </div>
+            <div class="infoot2">
+                <div class="finaldiv">
+                    <img id="finallogo" src="https://camerry.in/images/logo.svg" alt="">
+
+                </div>
+                <div class="finaldiv">
+                    <div class="textmedia">
+
+                        NUTRICREAMS PRIVATE LIMITED
+                        <br>
+
+                        Branch: :XV/274 , M.C Road, Okkal P.O,
+                        <br>
+
+                        Ernakulam, Kerala-683550
+                        <br>
+                        <br>
+
+                        +91 9746 674 440
+                        <br>
+
+                        toll free no : 1800 889 2080
+                        <br>
+                        <a style="color: #d1bd74;" href="mailto:flavours@camerry.in">flavours@camerry.in</a>
+                    </div>
+                </div>
+                <div class="finaldiv">
+                    <ul class="mainul">
+                        <li class="finalul">ABOUT US</li>
+                        <li class="finalul">MAKING</li>
+                        <li class="finalul">CAREER</li>
+                        <li class="finalul">MEDIA</li>
+                        <li class="finalul">CONTACT</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </body>    
+    <script>
+        document.addEventListener('scroll',()=>{
+            const header = document.querySelector('header');
+            if(window.scrollY>0){
+                header.classList.add('scrolled');
+            }else{
+                header.classList.remove('scrolled');
+            }
+        })
+    </script>
+</html>

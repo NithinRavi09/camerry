@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+}
+.firstblock{
+    width: 100%;
+    height: 645px;
+    background-image: url(https://www.camerry.in/images/01.png);
+    background-size: 100%;
+    background-color: #9c4041;
+    object-fit: fill;
+    z-index: -1;
+    margin-top: -40px;
+}
+.header{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    object-fit: fill;
+    justify-content: space-between;
+    border-bottom: .1px solid #351111;
+    position: fixed;
+    transition: background-color 0.4s ease-in-out;
+    
+}
+header.scrolled{
+    background-color: #000000;
+    opacity: 0.98;
+}
+.icon{
+    width: 120px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 105px;
+}
+.hdr1{
+    margin-right: 100px;
+    width: 20%;
+    
+}
+.hdr2{
+    display: flex;
+    flex-direction: row;
+    padding-right: 7%;
+    object-fit: fill;
+    width: 40%;
+    justify-content: space-between;
+}
+#a1{
+    width: 20%;
+    color: white;
+    margin-top: 15%;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.hdr3{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.smicons{
+    width: 16px;
+    height: 16px;
+    margin-top: 63px;
+    margin-left: 25px;
+    
+}
+.midblock{
+    width: 100%;
+    height: 800px;
+    background-color: #9c4041;
+    display: flex;
+    flex-direction: row;
+
+}
+.midleft{
+    width: 60%;
+    height: 100%;
+    
+}
+.midright{
+    width: 50%;
+    height: 70%;
+    margin-top: 200px;
+    margin-left: 80px;
+    /* display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center; */
+
+}
+#midimg{
+    width: 80%;
+    height: 70%;
+    margin-top: 80px;
+    margin-left: 140px;
+}
+#about{
+    width: 444.63px;
+    height: 24px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+   
+}
+#h3{
+    width: 444.63px;
+    height: 200px;
+    color: white;
+    font-size: 47px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+#midpara{
+    width: 444.63px;
+    height: 78px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+#explore{
+    width: 138.92px;
+    height: 47px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #9c4041;
+    border: solid 2px #bc9e33;
+    color: #bc9e33;
+    
+}
+#footer{
+    width: 100%;
+    height: 550px;
+    background-color: #1c1c1c;
+    margin-top: -100px;
+
+}
+#foot{
+    width: 1170px;
+    margin-left: 100px;
+    margin-top: 60px;
+    background-color: #1c1c1c;
+    padding-top: 60px;
+}
+#infoot1{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    
+}
+#row1{
+    width: 75%;
+    height: 100%;
+}
+h5{
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0 0 25px;
+    padding: 0;
+    letter-spacing: 0;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.textmedia{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+#conbutton{
+    width: 160px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: solid 2px #bc9e33;
+    color: #bc9e33;
+    background-color: #1c1c1c;
+}
+.infoot2{
+    width: 100%;
+    height: 249px;
+    margin-top: 80px;
+    border-top: solid 1px rgb(68, 68, 68);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.finaldiv{
+    width: 33.33%;
+    height: 100%;
+
+}
+#finallogo{
+    width: 110px;
+    height: 60px;
+    margin-top: 120px;
+    margin-left: 70px;
+}
+.textmedia{
+    color: #d1bd74; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+     line-height: 30px;
+     margin-top: 20px;
+     margin-left: 10px;
+}
+.finalul{
+    list-style-type: none;
+    color: #d1bd74; 
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 12px;
+}
+.mainul{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+
